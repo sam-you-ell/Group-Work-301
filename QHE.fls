@@ -197,3 +197,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.en
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb
