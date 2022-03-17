@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1647267483 "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.tex" "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.pdf" "QHE" 1647267484
-  "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.aux" 1647267484 1352 d57837a946e6433fd28e3fedfd1b7ed4 ""
-  "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.tex" 1647267165 673 504d31af93cf7c381770e746b2bf8ddb ""
+["pdflatex"] 1647268310 "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.tex" "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.pdf" "QHE" 1647268311
+  "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.aux" 1647268311 1352 d57837a946e6433fd28e3fedfd1b7ed4 ""
+  "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.tex" 1647268309 691 309758ddec8be0e86fcc6119ee96ada3 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -135,14 +135,15 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1612631864 2432468 2e42da1803ec38da33819c307f180bc3 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "QHE.aux" 1647267484 1352 d57837a946e6433fd28e3fedfd1b7ed4 "pdflatex"
-  "QHE.tex" 1647267165 673 504d31af93cf7c381770e746b2bf8ddb ""
-  "QHE.toc" 1647267484 811 3c8e81adb4748082a150c26cb4dfc7c2 "pdflatex"
+  "QHE.aux" 1647268311 1352 d57837a946e6433fd28e3fedfd1b7ed4 "pdflatex"
+  "QHE.tex" 1647268309 691 309758ddec8be0e86fcc6119ee96ada3 ""
+  "QHE.toc" 1647268311 811 3c8e81adb4748082a150c26cb4dfc7c2 "pdflatex"
+  "berry.tex" 1647268301 15 4db57dd3f670834f9c8468271100c3db ""
   "titlepage.tex" 1647203338 957 ca27faf65bd91f5b872e0a6cfedec6cc ""
   (generated)
-  "QHE.log"
-  "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.pdf"
   "QHE.toc"
-  "QHE.pdf"
   "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.log"
   "QHE.aux"
+  "QHE.log"
+  "QHE.pdf"
+  "/Users/samuelhopkins/Documents/GitHub/Group Work 301/QHE.pdf"
