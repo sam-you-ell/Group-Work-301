@@ -21,15 +21,14 @@
 
 
 \subsection*{Aysha Tarafdar - Presenter}
-Aysha will be handling the presentation and the introduction section of the final report.
+\subsubsection*{Introduction Overview}
+Classical Hall Effect: The classical hall effect is a consequence of charged carriers moving in a magnetic field,
+which results in a transverse force on the moving charged carriers. The charged carriers move towards one side of
+conductor and creates a voltage across it. This voltage is call Hall voltage, after Edwin Hall who discovered this effect in 1879.  
+Leads into what the Drude model predicts. I will also give a brief introduction to some of the first experimental findings, as well as 
+the motivation behind studying the quantum hall effect.
 
-\underline{Introduction Section}
-\begin{enumerate}
-    \item Classical Hall Effect
-    \item How it was found experimentally
-    \item How it affected the study of solid state physics
-    \item Motivation
-\end{enumerate}
+
 
 \vspace{0.5cm}
 \PRLsep
@@ -49,7 +48,34 @@ means even at room temperature the quantum hall effect can be observed.
 \vspace{0.5cm}
 \PRLsep
 
+\newpage
 \subsection*{Samuel Hopkins - Editor}
+\subsubsection*{Berry Phase Overview}
+We can describe complex systems using Hamiltonians. For a general Hamiltonian, $H(x^a; \lambda^i)$, where $x^a$ are the degrees of freedom of the system, and $\lambda^i$ are fixed parameters, 
+that only depend on external variables or apparatus. We are interested in these parameters, and the space they create for our system. 
+
+We can vary $\lambda$ so that we trace out a closed path in parameter space. The adiabatic theorem tells us that if we started in the ground state and varied $\lambda$ sufficiently slowly so that we 
+return to the ground state, we simply pick up a phase. This mathematically tells us; 
+\begin{equation*}
+    |\psi \rangle \to e^{i \gamma}|\psi \rangle
+\end{equation*}
+This is a phase difference between the same two states that will lead to physical consequences, so we simply cannot ignore it like we would with global phases.
+This phase difference has two contributions; 
+\begin{enumerate}
+    \item Contribution from the Dynamical phase
+    \item Contribution from Berry Phase
+\end{enumerate} 
+
+\subsubsection*{Plan}
+Following from the introduction of Berry Phase, I will detail the computation of the Berry Phase, the Berry Connection and curvature which 
+are fundamental concepts when considering the topology of the underlying system in the Integer Quantum Hall Effect, specifically when we consider the form of the 
+Hall conductivity and how this leads to our Chern numbers.
+
+\subsubsection*{Current Stage}
+Currently I am reading both the David Tong Lectures on QHE, and some of the original papers on Berry Phase. I hope to start writing by the end of week 21.
+
+\vspace{0.5cm}
+\PRLsep
 
 
 \newpage
@@ -91,9 +117,64 @@ Currently at the reading and planning stage. Finding and reading potential refer
 \newpage
 
 \subsection*{Tom Berlad}
+\subsubsection*{Experimental Overview}
+
+I will firstly write about the experiments that lead to the discovery of the two main types of Quantum Hall Effect, the Integer Quantum Hall Effect,
+ and the Fractional Quantum Hall Effect. The Integer QHE was first discovered by Klaus von Klitzing in 1980, who was awarded the Nobel Prize in Physics 
+ in 1985 for his discovery. The Fractional QHE was discovered in 1982 by Horst Störmer and Daniel Tsui, which lead to them being awarded the Nobel Prize 
+ in Physics 16 years later in 1998, along with physicist Robert Laughlin as he helped develop the theory to explain the complex phenomenon of 
+ Fractional QHE. In recent years, Fractional QHE was also observed using Graphene. I will also talk about the MOSFET (metal-oxide-semiconductor 
+ field-effect transistor), and how its experimental application led to the discovery of the QHE. The MOSFET includes a metal gate and an oxide 
+ insulator, and a p-doped or n-doped silicon semiconductor. An inversion layer is formed at the semiconductor-insulator when a voltage is applied
+between source (gates) and the drain (terminals) of the MOSFET, where a thin layer of electrons at a high concentration (negative charge carriers)
+forms at the interface between the insulator and semiconductor, and the size of voltage at the gate of the MOSFET controls the number of electrons
+in the layer. This causes the formation of a two-dimensional electron gas where electrons are restricted to only be able to freely travel in two 
+dimensions, which allowed quantum effects to be observed when the MOSFET is reduced to a very low temperature using liquid helium, as well as applying 
+a strong magnetic field. The classical Hall effect was first discovered in 1879 by physicist Edwin Hall, where he demonstrated how electrons concentrate
+at the ends of a thin gold plate when a magnetic field is applied perpendicularly, leading to a voltage. Klaus von Klitzing would discover the Integer
+QHE using extremely thin layered MOSFET samples developed by Gerhard Dorda and Michael Pepper. This voltage was discovered to be completely quantized with
+integer quantum numbers, so as the applied magnetic field is changed, the voltage value only changes into discrete values. Fractional QHE was discovered
+using selectively doped low density Gallium Arsenide structures under a perpendicular magnetic field at temperatures as low as 2K using liquid Helium, 
+whey they discovered fractional quantum numbered states. This was a surprising discovery as there shouldn't have been states below quantum number v = 1,
+and took many years to explain this strange phenomenon. 
+
+\subsubsection*{Current Stage}
+
+I have yet to begin writing my section on the report, however I've been reading and researching how the Quantum Hall Effect was discovered. 
+I aim to start writing up the first draft of my section of the report next week. I have currently read the “Quantum Hall Effect TIFR Infosys 
+Lectures” written by Professor David Tong, up to Chapter 3; The Fractional Quantum Hall Effect. As I read up to this chapter, I have covered 
+the aspects of both Integer and Fractional QHE, which also gives me insight into the processes that lead to the discovery of QHE in general.
+I also started reading “25 Years of Quantum Hall Effect (QHE)1
+A Personal View on the Discovery, Physics and Applications of this Quantum Effect” written by physicist Klaus von Klitzing who discovered the
+Integer QHE. This also gives an insight into the experimentation leading to its discovery from the insight of the actual physicist who worked
+to discover it. I also read part of the original 1980 paper by von Klitzing “New Method for High-Accuracy Determination of the Fine-Structure
+Constant Based on Quantized Hall Resistance”, giving an insight into the original processes in his research that lead to his discovery of Integer QHE. 
+
 
 \subsection*{Raul Gonzalez Ramos}
+\subsubsection*{Topology Overview}
 
+Quantum Hall effect appears in bidimensional electronic system under the application of strong magnetic fields. 
+There are two types, the integer quantum hall effect (IQHE) and the fractional version (FQHE). It seems that the
+electron systems which show this effect, specifically the FQHE, contained complex internal structure, known as quantum fluids.
+This structure represents a new matter state, and new concepts and ideas were developed to understand these states, 
+in particular a branch of mathematics called topology. 
 
+\noindent The intuitive idea is that topology relates systems which share some properties which are invariant under some allowed 
+transformations. For example, a doughnut and a mug are equivalent since we can transform one into the other one by isometric 
+transformations. 
+Topology helps to understand the idea that the plateaus that we saw in the QHE are not altered by the impurities of the systems. 
+\subsubsection*{Plan}
+\begin{enumerate}
+    \item[$\to$] What is topology?: Introduction about mathematical and physical meaning 
+    \item[$\to$] Need of using topological order to describe degenerate states: How the idea of topology was necessary to explain and understand the effect. 
+    \item[$\to$] Link QHE and topology: Consequences and achievements of using topology, new applications with quantum computing topology.  
+\end{enumerate}
+\subsubsection*{Current Stage}
+
+General reading about QHE, topology and how topology solves the problem. Understanding the big picture better to deep into more complex relations.  
+
+\vspace{0.5cm}
+\PRLsep
 
 \end{document}
