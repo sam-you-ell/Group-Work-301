@@ -1,21 +1,27 @@
-\documentclass[notitlepage, a4paper, prl, aps]{revtex4}
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\newcommand{\PRLsep}{\noindent\makebox[\linewidth]{\resizebox{0.3333\linewidth}{1pt}{$\bullet$}}\bigskip}
 
-\setlength{\textheight}{10.2in}
+\setlength{\textheight}{9.5in}
 \setlength{\textwidth}{7in}
 \setlength{\evensidemargin}{-0.2in}
 \setlength{\oddsidemargin}{-0.2in}
-\setlength{\topmargin}{-0.7in}
+\setlength{\topmargin}{-0.8in}
+
+\date{}
 
 \begin{document}
+\vspace{-0.95cm}
 
-\title{QHE Progress Report - 19th March}
+\begin{center}
+    {\Large{QHE Progress Report}}\\
+    19th March
+\end{center}
 
-\author{}
-
-\maketitle
 
 \subsection*{Aysha Tarafdar - Presenter}
-Aysha will be handling the presentation and the introduction section of the final report. 
+Aysha will be handling the presentation and the introduction section of the final report.
 
 \underline{Introduction Section}
 \begin{enumerate}
@@ -25,38 +31,69 @@ Aysha will be handling the presentation and the introduction section of the fina
     \item Motivation
 \end{enumerate}
 
+\vspace{0.5cm}
+\PRLsep
+
 \subsection*{Darius Michienzi - Deputy Editor}
-The popular article has a plan and an outline as to what is to be covered. The plan is designed such that each section can be covered by different people in the 
-group that are focusing on specific areas. It will cover briefly cover the classical hall mechanism, so the reader has the necessary understanding for why the 
-quantum hall effect is different. The link between quantisation and topological invariants will be discussed but kept to a level such that the intended audience 
-will be able to understand. The final sections will cover the practical applications the quantum hall effect has as well as current areas of research such as its 
-observation at room temperature in graphene.  
+The popular article has a plan and an outline as to what is to be covered. The plan is designed such that each section can be covered by different people in the
+group that are focusing on specific areas. It will cover briefly cover the classical hall mechanism, so the reader has the necessary understanding for why the
+quantum hall effect is different. The link between quantisation and topological invariants will be discussed but kept to a level such that the intended audience
+will be able to understand. The final sections will cover the practical applications the quantum hall effect has as well as current areas of research such as its
+observation at room temperature in graphene.
 \newline
+
 Personally, I will be covering the applications and future study portions of the article and report. This will be how the precision of the quantisation allows the
- von Klitzing constant derived from the hall resistivity to be used as a standard for resistance when calibrating devices. Also, how the high mobility in graphene 
- means even at room temperature the quantum hall effect can be observed.   
+von Klitzing constant derived from the hall resistivity to be used as a standard for resistance when calibrating devices. Also, how the high mobility in graphene
+means even at room temperature the quantum hall effect can be observed.
+
+\vspace{0.5cm}
+\PRLsep
 
 \subsection*{Samuel Hopkins - Editor}
 
-\underline{Final Report Sections by Sam}
 
-\begin{enumerate}
-    \item Abstract - to be written with groups advice/direction
-    \item Berry Phase
-    \item Conclusion - to be written with groups advice/direction
-\end{enumerate}
-
-I will be writing the section on the theory of berry phase in the context of QHE, which naturally leads to the Berry connection, curvature.
-The main text I am currently using is the lecture notes from David Tong as an introduction into the subject with context \cite{Tong}.
-
+\newpage
 \subsection*{Toby Rawlings}
+
+\subsubsection*{Landau Levels Overview}
+
+Landau levels are quantised energy levels of a particle in a magnetic field. The energy levels can be labelled by an integer $n$ and are of the form;
+\begin{equation*}
+    E_n = \hbar \omega_{b}\left(n + \frac{1}{2}\right)
+\end{equation*}
+Where $\omega_{b}$ is the cyclotron frequency. The energy levels are degenerate as they are not dependent on the wavevector $k$. The introduction of an electric
+field and associated potential changes the energy levels to the form
+\begin{equation*}
+    E_n = \hbar \omega_{b}\left(n + \frac{1}{2}\right) - eE\left(k l_b^2 + \frac{eE}{m\omega_{b}^2}\right) + \frac{m}{2}\frac{E^2}{B^2}
+\end{equation*}
+In this case, the degeneracy is lifted due to the introduction of a linear dependence on the wavevector.
+
+\noindent Landau Levels are of central importance when discussing QHE as the Hall conductivity takes values that are characterised by integer $n$, when $n$ Landau levels are filled.
+
+\subsubsection*{Plan}
+We have two sections;
+General introduction to the concept of Landau Levels:
+\begin{enumerate}
+    \item[$\to$] This section will begin with a classical description of a particle in a magnetic field and we shall discuss key features of the system (cyclotron orbits, etc) and then
+        move on to a quantum mechanical description. This will start with the Hamiltonian of an electron in a magnetic field and then give a brief overview of the method of solving for the energy levels.
+        The different choices of gauge shall also be discussed. A description of the degeneracy of Landau levels will then be given. The effect of turning on an electric field will be outlined, particularly the lifting of degeneracy.
+\end{enumerate}
+Relation to integer Quantum Hall effect:
+\begin{enumerate}
+    \item[$\to$] The significance of the Landau levels to the IQHE will be outlined. Will discuss how filled Landau levels correspond the
+        plateaux in conductivity. Will link to the conductivity of a filled Landau levels using the number of states in each Landau level.
+\end{enumerate}
+\subsubsection*{Current Stage}
+Currently at the reading and planning stage. Finding and reading potential references for the report
+
+\vspace{0.5cm}
+\PRLsep
+\newpage
 
 \subsection*{Tom Berlad}
 
 \subsection*{Raul Gonzalez Ramos}
 
-
-\bibliography{qhe_prog_rep}
 
 
 \end{document}
