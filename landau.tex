@@ -1,0 +1,39 @@
+% Toby's section
+\section{Landau Levels}
+\subsection{General Derivation}
+We now consider a charged particle in a uniform magnetic field from a quantum mechanical perspective. For a particle of mass $m$ moving in a magnetic field with a vector potential $\textbf{A}$ is 
+\begin{equation}
+    H=\frac{1}{2m}\left(\textbf{p}+e\textbf{A}\right)
+\end{equation}
+The particle is restricted to lie in the $(x,y)$ plane and the vector potential is such that the magnetic field is perpendicular to this plane, pointing in the positive $z$-direction. There are various choices of the vector potential that can produce this. For simplicity of calculation, we choose the Landau gauge, where
+\begin{equation}
+    \textbf{A}=-By\hat{\textbf{x}}
+\end{equation}
+Rewriting the Hamiltonian with this vector potential, we have
+\begin{equation}
+    H=\frac{1}{2m}\left(p_{x}-eBy\right)^2+\frac{1}{2m}{p_y}^2
+\end{equation}
+The Hamiltonian commutes with $p_x$, so can look for eigenstates of the Hamiltonian that are plane waves in x, i.e. of the form
+\begin{equation}
+    \psi(x,y)=\phi(y)e^{ik_xx}
+\end{equation}
+where $k_x=\hbar p_x$. Since the wavefunction is an eigenstate in x, the action of the Hamiltonian on this wavefunction can be written
+\begin{equation}
+    H=\frac{1}{2m}{p_y}^2+\frac{1}{2m}\left(\hbar k_x-eBy\right)^2
+\end{equation}
+which can be rearranged to give
+\begin{equation}
+    H=\frac{1}{2m}{p_y}^2+\frac{1}{2m}{\omega_B}^2\left(y-\frac{\hbar k_x}{eB}\right)
+\end{equation}
+where $\omega_B=eB/m$ is the cyclotron frequency. This is clearly the Hamiltonian of a harmonic oscillator in the y direction, the equilibrium position of which has been shifted by $\hbar k_x/eB$. Hence there will be an energy spectrum with levels
+\begin{equation}
+    E_n=\hbar \omega_B\left(n+\frac{1}{2}\right)
+\end{equation}
+Note there is no energy dependence on the wavevector $k_x$. This gives a degeneracy in the energy levels. \par
+We can now consider the wavefunction itself, which takes the form of the standard wavefunction of a harmonic oscillator, localised around an equilibrium point given by $\hbar k_x/eB$.
+\begin{equation}
+    \psi_{n,k_x}(x,y)=H_n\left(y+k_x{l_b}^2\right)e^{-\left(y+k_x{l_b}^2\right)^2/2{l_b}^2}e^{ik_xx}
+\end{equation}
+where $l_b=\sqrt{\hbar/eB}$. The wavefunctions are thus like strips in the x direction which are localised around equally spaced equilibrium points in y, with spacing $k_x{l_b}^2$.
+\subsection{Degeneracy}
+We now consider an important characteristic of Landau levels, their degeneracy. When the particle is restricted to a finite sample, the value of the wavevector $k_x$ is constrained and hence the degeneracy in the energy levels discussed above if finite and calculable. To find the degeneracy consider a sample of dimensions $L_x$ by $L_y$. This quantises the wavevectors to multiples of $L_x/2\pi$
